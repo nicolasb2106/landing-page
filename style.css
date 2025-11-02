@@ -1,0 +1,170 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    height: 32px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    list-style: none;
+}
+
+li{
+    padding: 0;
+    margin: 0; 
+}
+
+a{
+    text-decoration: none;
+    color: rgb(141, 130, 130);
+}
+
+.H-Logo{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header, .first{
+    padding: 10px 200px 60px;
+}
+
+.header, .first, .items{
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 600px;
+}
+
+footer{
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header, .first, footer{
+    background-color: #1F2937;
+    color: white;
+}
+
+.third{
+    background-color: #E5E7EB;
+}
+
+.placeholder{
+    padding: 80px;
+    background-color: #a2a4a7;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.second, .third, .fourth{
+    padding: 0px 200px 60px;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.empty{
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+}
+
+.text2{
+    width: 100px;
+    text-align: center;
+}
+
+.items{
+    justify-content: center;
+    gap: 28px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.text1{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+button{
+    all: unset;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+
+.first{
+    gap: 20px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.thor{
+    font-weight: bold;
+    text-align: end;
+}
+
+.fourth{
+    margin: 60px 100px;
+    padding: 30px 100px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4{
+    margin: 0;
+}
+
+.text4{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.Button2{
+    border: 1px solid white;
+}
+
